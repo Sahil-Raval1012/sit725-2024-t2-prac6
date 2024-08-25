@@ -10,6 +10,7 @@
   },
   "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node app.js"
   }
 }
