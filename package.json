@@ -10,7 +10,13 @@
   },
   "type": "module",
   "scripts": {
-    "test": "mocha",
-    "start": "node app.js"
+    "test": "mocha test/app.test.js",
+    "start": "node app.js",
+    "require": "esm",
+    "extension": ["js"]
+    
+    
   }
+  
+  
 }
